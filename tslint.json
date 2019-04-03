@@ -1,0 +1,32 @@
+{
+    "extends": [ "tslint:all" ],
+    "rules": {
+      // TypeScript specific
+      "member-access": {
+        "options": ["check-accessor", "check-parameter-property"]
+      },
+      "no-inferrable-types": [true, "ignore-params", "ignore-properties"],
+      "quotemark": [true, "single"],
+      "semicolon": [true, "never"],
+      "typedef": [
+        true, 
+        "call-signature",
+        "arrow-call-signature",
+        "parameter",
+        "arrow-parameter",
+        "property-declaration",
+        "member-variable-declaration",
+        "object-destructuring"
+      ],
+  
+      // Functionality
+      "no-empty": [true, "allow-empty-catch"],
+      "no-void-expression": [true, "ignore-arrow-function-shorthand"],
+  
+      // Style
+      "completed-docs": { "severity": "warning" },
+      "comment-format": ["check-space", "check-uppercase"]
+    },
+    "defaultSeverity": "error"
+}
+  

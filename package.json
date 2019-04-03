@@ -1,0 +1,14 @@
+{
+  "name": "tslint-config-youclap",
+  "version": "1.0.0",
+  "description": "TypeScript linter rules",
+  "author": "YouClap <development@youclap.tech>",
+  "repository": "git@github.com:YouClap/tslint-rules.git",
+  "license": "MIT",
+  "private": false,
+  "main": "tslint.json",
+  "peerDependencies": {
+    "typescript": "^3.4.1",
+    "tslint": "^5.15.0"
+  }
+}
